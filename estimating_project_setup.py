@@ -118,7 +118,7 @@ def master_program():
         os.makedirs(sb_path)
     
     
-    path_test = sb_path + r'\cocaine'
+    path_test = sb_path + r'\test'
     shell = dispatch('WScript.Shell')
     shortcut = shell.CreateShortcut(path_test)
     #shortcut.Targetpath = 
